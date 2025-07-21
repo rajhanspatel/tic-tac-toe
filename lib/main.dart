@@ -194,7 +194,7 @@ class InfoScreen extends StatelessWidget {
           'Contact Us',
           style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
         ),
-        Text('Email us at: support@yourdomain.com'),
+        Text('Email us at: rajhanspatel113@gmail.com'),
         SizedBox(height: 20),
         Text(
           'Terms and Conditions',
