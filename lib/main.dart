@@ -29,11 +29,7 @@ class MainHomeScreen extends StatelessWidget {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: Row(
-            children: [
-              const Text('Tic Tac Toe Game'),
-            ],
-          ),
+          title: const Text('Tic Tac Toe Game'),
           bottom: const TabBar(
             tabs: [
               Tab(icon: Icon(Icons.gamepad), text: 'Play Game'),
@@ -51,6 +47,7 @@ class MainHomeScreen extends StatelessWidget {
     );
   }
 }
+
 
 class TicTacToeScreen extends StatefulWidget {
   const TicTacToeScreen({super.key});
@@ -197,7 +194,7 @@ class InfoScreen extends StatelessWidget {
           'Contact Us',
           style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
         ),
-        Text('Email us at: rajhansmarakana11@gmail.com'),
+        Text('Email us at: support@yourdomain.com'),
         SizedBox(height: 20),
         Text(
           'Terms and Conditions',
