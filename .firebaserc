@@ -1,0 +1,5 @@
+{
+  "projects": {
+    "default": "app-tic-tac-toe-game"
+  }
+}
